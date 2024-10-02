@@ -1,0 +1,239 @@
+body{
+    background: rgb(137, 92, 92);
+    color: rgb(1, 0, 0);
+}
+
+/*  */
+body{
+    background: url('d:\Kelas Industri X\HTML BU LYRA\CSS\gambar.png.jpg.png');
+    color: rgb(21, 2, 2);
+}
+
+/*  */
+.box{
+    background: blue;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+
+.box-dua{
+    background: red;
+    height: 100px;
+    width: 200px;
+    margin-left: 70px;
+}
+
+/*  */
+h1{
+    text-align: center;
+}
+
+.box{
+    background: blue;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+}
+
+.box-dua{
+    background: red;
+    height: 100px;
+    width: 600px;
+    padding-left: 70px;
+}
+
+/*  */
+.tulisan_Satu{
+    font-color: red;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.tulisan-dua{
+    font-color: green;
+    font-size: 24pt;
+    font-style: italic;
+}
+
+.tulisan_tiga{
+    font-color: red;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+/*  */
+.link{
+    font-size: 20pt;
+}
+
+.link:hover{
+    color: red;
+}
+
+.link:link{
+    color: blue;
+}
+
+.contoh-link,
+.contoh-link:link,
+.contoh-link:active,
+.contoh-link:visited{
+    font-size: 20pt;
+    background: #1ABC9C;
+    color: #0a0909;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.contoh-link:hover{
+    background: #16A085;
+}
+
+/*  */
+.tulisan_kiri{
+    text-align: left;
+    color: blue;
+    text-decoration: underline;
+}
+
+.tulisan_kanan{
+    text-align: right;
+    text-transform: capitalize;
+    text-decoration: overline;
+}
+
+.tulisan_tengaj{
+    text-align: center;
+    text-transform: lowercase;
+    text-decoration: 
+    line-through;
+    word-spacing: 10px;
+}
+
+.tulisan_justify{
+    text-transform: uppercase;
+    text-indent: 30px;
+    line-height: 30px;
+    letter-spacing: 5px;
+}
+
+/*  (s)*/
+.kotak{
+    background: blue;
+    position: static;
+}
+/* (r) */
+.kotak{
+    background: blue;
+    position: relative;
+    left: 40px;
+    padding: 10px;
+}
+/* (a) */
+.kotak{
+    background: blue;
+    position: absolute;
+    left: 40px;
+    padding: 10px;
+}
+/* (f) */
+.kotak{
+    background: blue;
+    position: fixed;
+    left: 40px;
+    padding: 10px;
+}
+
+<html>
+#garis_1{
+    border-style: solid;
+    border-width: 5px;
+}
+#garis_2{
+    border-style: dotted;
+    border-width: 10px;
+    border-color: red;
+}
+#garis_3{
+    border-style: dashed;
+    border-width: 3px;
+    border-color: blue;
+}
+#garis_4{
+    border-style: double;
+    border-width: 9px;
+    border-color: green;
+}
+#garis_5{
+    border-style: groove;
+    border-width: 25px;
+    border-color: #12ff00;
+}
+#garis_6{
+    border-style: inset;
+    border-width: 5px;
+    border-color: 333333;
+}
+#garis_7{
+    border-style: outset;
+    border-width: 5px;
+    border-color: yellow;
+}
+#garis_8{
+    border-style: ridge;
+    border-width: 50px;
+    border-color: violet;
+}
+</html>
+/*  */
+h1{
+    text-align: center;
+}
+ul.makanan{
+    list-style-type: square; /*list dgn bentuk square*/
+}
+ul.minuman{
+    list-style-type: circle;
+}
+ol.alamat{
+    list-style-type: upper-alpha;
+}
+ol.mobil{
+    list-style-type: upper-roman;
+}
+
+/*  */
+h1{
+    text-align: center;
+}
+.gambar{
+    width: 300px;
+    float:left;
+    margin-right: 10px;
+}
+
+/*  */
+.table1{
+    font-family: sans-serif;
+    color: #000000;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #ffffff;
+}
+.table1 tr th{
+    background: #35A9DB;
+    color: #ffffff;
+    font-weight: normal;
+}
+.table1, th, td{
+    padding: 8px 20px;
+    text-align: center;
+}
+.table1 tr:hover{
+    background-color: #3c94db;
+}
+.table1 tr:nth-child(even){
+    background-color: #e23232;
+}
